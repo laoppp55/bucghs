@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner03_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="content_box clearfix">
+<div class="box_out">
+<div class="title">
+<h2><span>检索结果</span></h2>
+</div>
+</div>
+
+<div class="box_out clearfix">
+<div class="list-right">
+<ul><!--循环LI开始-->
+	<li><a href="/news/zxnews/20181225/1246437.shtml" target="_blank"><span>2018-12-25</span> </a>
+
+	<p><a href="/news/zxnews/20181225/1246437.shtml" target="_blank">于合群局长调研指导河南分局运行管理工作</a></p>
+	</li>
+	<!--循环LI结束--><!--循环LI开始-->
+	<li><a href="/news/zxnews/20181225/1246436.shtml" target="_blank"><span>2018-12-25</span> </a>
+	<p><a href="/news/zxnews/20181225/1246436.shtml" target="_blank">刘宪亮副局长向南水北调中线干线工程首个&ldquo;达标中控室&rdquo;授牌</a></p>
+	</li>
+	<!--循环LI结束，每页循环10个LI-->
+</ul>
+
+<div class="page" id="ArticlePage"><span>第1页</span> <span>共19页</span><span class="cur">1</span> <a href="javascript:void(0)" onclick="doSearch(2,65828,'2018')">2</a><a href="javascript:void(0)" onclick="doSearch(3,65828,'2018')">3</a><a href="javascript:void(0)" onclick="doSearch(4,65828,'2018')">4</a><a href="javascript:void(0)" onclick="doSearch(5,65828,'2018')">5</a><a href="javascript:void(0)" onclick="doSearch(2,65828,'2018')">下一页</a> <span class="select-pager">转到第<select id="select" onchange="select(65828,'2018');"><option selected="selected" value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option></select>页</span></div>
+</div>
+
+<div class="ichanye-box"><!--#include virtual="/inc/right.shtml"--></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/columnhome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner05_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/ddjs/index.shtml">党的建设</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out">
+<div class="title">
+<h2><span>党建工作</span></h2>
+<a href="/ddjs/djgz/">更多&gt;</a></div>
+</div>
+
+<div class="leftpic_box"><img alt="" src="/images/pic_dangjian_c.jpg" /></div>
+
+<div class="box">
+<div class="box-mian"><ul>
+<li><a href="/ddjs/djgz/20200603/4504.shtml" target="_blank">华晟公司党支部组织观看《小巷管家》</a><span>[2019-11-13]</span></li><li><a href="/ddjs/djgz/20200603/4503.shtml" target="_blank">华晟公司党支部开展“不忘初心，牢记使命”主题教育组织生活会</a><span>[2019-10-13]</span></li><li><a href="/ddjs/djgz/20200603/4502.shtml" target="_blank">在延庆冬奥市政大桥建设现场，城建集团第十党支部和华晟公司党支部共同庆祝新中国成立70周年活动并视察慰问项目参施员工</a><span>[2019-09-19]</span></li>
+</ul></div>
+</div>
+</div>
+
+<div class="content_box bottom-box">
+<div class="ibox">
+<div class="title">
+<h2><span>群众工作</span></h2>
+<a href="/ddjs/qzgz/">更多&gt;</a></div>
+
+<div class="pic_box"><img alt="" src="/images/banner_mini_01_c.jpg" /></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/ddjs/qzgz/20200603/4509.shtml" target="_blank">劳动节，我们奋斗在岗位上！</a><span>[05-01]</span></li><li><a href="/ddjs/qzgz/20200603/4508.shtml" target="_blank">北京城建华晟交通建设有限公司组织系列活动庆祝“三八节”这个美丽节日</a><span>[03-13]</span></li><li><a href="/ddjs/qzgz/20200603/4507.shtml" target="_blank">北京城建华晟交通建设有限公司各项目组织系列活动庆祝“三八节”这个美丽节日的到来</a><span>[03-09]</span></li>
+</ul></div>
+</div>
+
+<div class="ibox">
+<div class="title">
+<h2><span>青年工作</span></h2>
+<a href="/ddjs/qngz/">更多&gt;</a></div>
+
+<div class="pic_box"><img alt="" src="/images/banner_mini_02_c.jpg" /></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/ddjs/qngz/20200603/4505.shtml" target="_blank">公司2019年新员工入职培训会顺利召开</a><span>[07-14]</span></li><li><a href="/ddjs/qngz/20200603/4506.shtml" target="_blank">北京城建华晟交通建设有限公司2018届新员工入职培训圆满举行</a><span>[07-15]</span></li>
+</ul></div>
+</div>
+
+<div class="clert">&nbsp;</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner01_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/gsjs/index.shtml">公司介绍</a>><a href="/gsjs/gsld/index.shtml">公司主要领导</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out clearfix">
+<div class="column">
+<h1><a href="#">公司介绍</a></h1>
+
+<ul>
+	<li class="leaders act">
+	<p><a href="/gsjs/gsld/">公司主要领导</a></p>
+
+	<p>总经理：高治泉</p>
+
+	<p>书记：刘乃忠</p>
+	</li>
+	<li><a href="/gsjs/zzjg/">组织结构</a></li>
+	<li><a href="/gsjs/qyry/">企业荣誉</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>公司主要领导</span></h2>
+</div>
+
+<p align="center">&nbsp;</p>
+
+<table align="center" border="0" cellspacing="1" class="lingdao" width="507">
+	<tbody>
+		<tr>
+			<td width="268">
+			<div class="left">总经理：</div>
+			</td>
+			<td>高治泉</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">党组织书记：</div>
+			</td>
+			<td>刘乃忠</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">常务副总经理兼京津冀区域经理：</div>
+			</td>
+			<td>王荣强</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">总工程师：</div>
+			</td>
+			<td>张勇</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">总会计师：</div>
+			</td>
+			<td>靳凤志</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">总经济师：</div>
+			</td>
+			<td>王艳霞</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理兼路面分公司经理：</div>
+			</td>
+			<td>陈玉芳</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理：</div>
+			</td>
+			<td>常金波</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理：</div>
+			</td>
+			<td>李冰</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理兼江西区域公司经理：</div>
+			</td>
+			<td>张建</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理兼安徽区域公司经理：</div>
+			</td>
+			<td>吕文军</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理兼北方区域经理：</div>
+			</td>
+			<td>于增颂</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="left">副总经理兼海外区域经理：</div>
+			</td>
+			<td>李志强</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

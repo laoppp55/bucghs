@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="/js/jquery.img_silder.js"></script><script>
+        $(function(){
+            $('#silder').imgSilder({
+				s_width:785, //容器宽度
+				s_height:441, //容器高度
+				is_showTit:true, // 是否显示图片标题 false :不显示，true :显示
+				s_times:3500, //设置滚动时间
+				css_link:'/css/silder_1.css'//样式文件位置
+			});
+		});
+    </script>
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner04_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/jzcl/index.shtml">建筑材料</a>><a href="/jzcl/zszzp/index.shtml">再生砖制品</a></div>
+
+<div class="content_box clearfix">
+<div class="topline clearfix">
+<div class="column">
+<h1><a href="/jzcl/">建筑材料</a></h1>
+
+<ul>
+	<li><a href="/jzcl/zsgl/index.shtml">再生骨料</a></li>
+	<li class="act"><a href="/jzcl/zszzp/index.shtml">再生砖制品</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>再生砖制品</span></h2>
+</div>
+
+<div style="padding:20px 0; float:left; width:785px;"><!--silder begin --->
+<div class="silder" id="silder"><ul class="silder_list" id="silder_list">
+<li><img alt="再生劈裂砌块2" border="0" src="/jzcl/zszzp/images/picq18682mc.jpg" /></li><li><img alt="再生劈裂砌块" border="0" src="/jzcl/zszzp/images/picdtfah5b6.jpg" /></li><li><img alt="乙3夜光路缘石" border="0" src="/jzcl/zszzp/images/pic5wt1yu3c.jpg" /></li><li><img alt="乙2路缘石" border="0" src="/jzcl/zszzp/images/pic1687025p.jpg" /></li><li><img alt="乙1路缘石" border="0" src="/jzcl/zszzp/images/piclt1x1u0y.jpg" /></li><li><img alt="上坡角路缘石" border="0" src="/jzcl/zszzp/images/picwqo600bp.jpg" /></li><li><img alt="路缘石断面" border="0" src="/jzcl/zszzp/images/pic328l8f6a.jpg" /></li><li><img alt="六角空心砖和六角实心砖" border="0" src="/jzcl/zszzp/images/pic7q4d6q64.jpg" /></li><li><img alt="甲2路缘石" border="0" src="/jzcl/zszzp/images/pic3800td6s.jpg" /></li><li><img alt="互锁护坡砖" border="0" src="/jzcl/zszzp/images/pic3ku811mt.jpg" /></li><li><img alt="仿石劈裂砌块" border="0" src="/jzcl/zszzp/images/pic8c715m84.jpg" /></li><li><img alt="标准砖" border="0" src="/jzcl/zszzp/images/picx4f81k0p.jpg" /></li><li><img alt="200盲道（止步）" border="0" src="/jzcl/zszzp/images/picj4q58516.jpg" /></li><li><img alt="A4路缘石" border="0" src="/jzcl/zszzp/images/pic5xq8367y.jpg" /></li><li><img alt="300荷兰砖（仿石）" border="0" src="/jzcl/zszzp/images/picb0qn8nv1.jpg" /></li><li><img alt="200荷兰砖红色" border="0" src="/jzcl/zszzp/images/pich403rf66.jpg" /></li><li><img alt="8字植草砖停车场应用" border="0" src="/jzcl/zszzp/images/pice5kn737m.jpg" /></li><li><img alt="8字植草砖" border="0" src="/jzcl/zszzp/images/pic74ncg874.jpg" /></li><li><img alt="200荷兰砖" border="0" src="/jzcl/zszzp/images/picw61h6827.jpg" /></li><li><img alt="粗面透水砖" border="0" src="/jzcl/zszzp/images/pic0l4522w4.jpg" /></li>
+</ul></div>
+<!--silder end ---></div>
+
+<div style="padding:20px 0; float:left; width:785px;">
+<p><strong>透水路面砖</strong></p>
+
+<p>本产品掺 30% 的混凝土破碎再生料制成，经检测透水系数达到 2.0*10-2cm/s，28天实测抗折强度为 3.78MPa。依据 GB/T 25993-2010《透水路面砖和透水路面板》，达到 A 级透水砖。在再生骨料使用行业内首次达到满足强度要求后，透水系数到国标 A 级。</p>
+
+<p><strong>再生盲道</strong></p>
+
+<p>产品性能</p>
+
+<p>抗压强度等级 Cc30、Cc40、Cc50；透水系数 1.0*10-2cm/s、1.0*10-2cm/s，抗压强度 30MPa。</p>
+
+<p>使用范围</p>
+
+<p>市政道路、广场、房地产项目、公园等。</p>
+
+<p>路面产品颜色</p>
+
+<p>200 盲道砖（前行） 200 盲道砖（止步）</p>
+
+<p>乙 2 路缘石 路缘石断面</p>
+
+<p>规 格 （单位 mm）</p>
+
+<p>200X200X60 250X250X60</p>
+
+<p>产品样式</p>
+
+<p><strong>再生路缘石</strong></p>
+
+<p>产品性能</p>
+
+<p>抗折强度 Cf3.0、Cf4.0、Cf5.0、Cf6.0</p>
+
+<p>使用范围</p>
+
+<p>城市道路、广场、房地产、公园、高速公路等</p>
+
+<p><strong>渗水路面砖</strong></p>
+
+<p>本产品掺加了 50% 的 0~5 砖混混合再生料，30% 的 3~8 混凝土破碎再生料，5% 的二级粉煤灰，5%的尾矿，10%的P.O42.5水泥。本产品根据GB/T 28635 《混凝土路面砖》检测抗折强度大于 3.0MPa，抗压强度大于 30MPa，满足了城市道路、园林广场使用要求。</p>
+
+<p>规 格 （单位 mm）</p>
+
+<p>500X120X300 495X80/100X300</p>
+
+<p>495X250-250X100 995X100/220X100/220</p>
+
+<p>495X100X200 995X120X250<br />
+&nbsp;</p>
+</div>
+
+<div class="info_box"><!--#include virtual="/jzcl/jiancai.shtml"--></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

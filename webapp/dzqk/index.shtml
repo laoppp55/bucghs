@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner09_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/dzqk/index.shtml">电子期刊</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out clearfix">
+<div class="ichanye-box"><!--#include virtual="/inc/right.shtml"--></div>
+
+<div class="cjdzb-box">
+<div class="title">
+<h2><span>城建电子报</span></h2>
+</div>
+
+<div class="list-right"><ul><li><a href="/dzqk/20200531/download/2019年2月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年2月.pdf" target="_blank">2019年2月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年3月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年3月.pdf" target="_blank">2019年3月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年4月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年4月.pdf" target="_blank">2019年4月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年5月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年5月.pdf" target="_blank">2019年5月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年6月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年6月.pdf" target="_blank">2019年6月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年7月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年7月.pdf" target="_blank">2019年7月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年8月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年8月.pdf" target="_blank">2019年8月PDF</a></p>
+	</li>
+
+
+<li><a href="/dzqk/20200531/download/2019年9月.pdf" target="_blank"><span>2020-05-31</span> </a>
+	<p><a href="/dzqk/20200531/download/2019年9月.pdf" target="_blank">2019年9月PDF</a></p>
+	</li>
+
+</ul><div class="page">
+
+<span>第1页</span>
+<span>共2页</span>
+< a href=" >">上一页</ a>
+
+
+<span class="cur">1</span>
+<a href="/dzqk/index1.shtml">2</a>
+< a href="/dzqk/index1.shtml">下一页</ a>
+<span class="txtl">转到第</span>
+<span class="select-pager">
+<form name=form><select name=turnPage size=1 onChange="window.location=this.form.turnPage.value;"><option value=/dzqk/index.shtml selected>1</option><option value=/dzqk/index1.shtml>2</option></select></form>
+</span>
+<span class="txtr">页</span></div></div>
+<!--list end--></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

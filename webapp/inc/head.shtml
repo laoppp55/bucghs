@@ -1,0 +1,18 @@
+
+<div class="top_box">
+<div class="main"><a href="#">内部办公系统</a> | <a href="#">法律声明</a></div>
+</div>
+
+<div class="logo_box clearfix">
+<div class="main logo">
+<div class="search_box">
+<form id="form1" method="post" name="form1"><label><input class="search" id="textfield" name="textfield" type="text" /></label> <label><input class="batton" id="submit" name="submit" src="/images/search_c.jpg" type="image" value="提交" /></label></form>
+</div>
+</div>
+</div>
+
+<div class="menu_box">
+<div class="main">
+<div class="menu"><!--#include virtual="/inc/menu.shtml"--></div>
+</div>
+</div>

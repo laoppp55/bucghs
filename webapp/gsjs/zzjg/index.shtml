@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner01_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/gsjs/index.shtml">公司介绍</a>><a href="/gsjs/zzjg/index.shtml">组织架构</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out clearfix">
+<div class="column">
+<h1><a href="#">公司介绍</a></h1>
+
+<ul>
+	<li class="leaders">
+	<p><a href="#">公司主要领导</a></p>
+
+	<p>总经理：高治泉</p>
+
+	<p>书记：刘乃忠</p>
+	</li>
+	<li class="act"><a href="/gsjs/zzjg/">组织结构</a></li>
+	<li><a href="/gsjs/qyry/">企业荣誉</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>组织架构</span></h2>
+</div>
+<img alt="" src="/gsjs/zzjg/images/74c0cdb00236420b934a55f5425bafe9_600x800.jpg" style="width: 785px; height: 564px;" /></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+
+<div class="menu-b clearfix"><!--#include virtual="/inc/menu.shtml"--></div>
+
+<div class="copyright clearfix">北京城建华晟交通建设有限公司 京ICP备05007828号</div>
+
+<div class="side_nav clearfix">
+<ul>
+	<li class="weixin side_nav_3"><a href="javascript:;"><span><!--weixin--></span></a><i><img alt="" src="/images/weixinma_c.jpg" /></i></li>
+	<li class="back_top side_nav_3"><a href=" "><span><!--top--></span></a></li>
+</ul>
+</div>

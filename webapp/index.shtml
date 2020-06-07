@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/home.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="/js/jquery.img_silder.js"></script><script>
+        $(function(){
+            $('#silder').imgSilder({
+				s_width:355, //容器宽度
+				s_height:147, //容器高度
+				is_showTit:true, // 是否显示图片标题 false :不显示，true :显示
+				s_times:3500, //设置滚动时间
+				css_link:'/css/silder.css'//样式文件位置
+			});
+		});
+    </script>
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner">
+<div class="banner-b" id="banner-b">
+<div class="hd">
+<ul>
+	<li><!--dian--></li>
+	<li><!--dian--></li>
+	<li><!--dian--></li>
+	<li><!--dian--></li>
+	<li><!--dian--></li>
+</ul>
+</div>
+
+<div class="bd">
+<ul>
+	<li><img alt="" src="/images/banner1_c.jpg" /></li>
+	<li><img alt="" src="/images/banner2_c.jpg" /></li>
+	<li><img alt="" src="/images/banner3_c.jpg" /></li>
+	<li><img alt="" src="/images/banner4_c.jpg" /></li>
+	<li><img alt="" src="/images/banner5_c.jpg" /></li>
+</ul>
+</div>
+
+<div class="chanye-b">
+<div class="chanye-bb">
+<div class="chanye-piclist clearfix">
+<ul>
+	<li><a href="/ywbk/glgc/"><img alt="" height="107" src="/images/chanye01_c.jpg" width="191" /><span>公路工程</span></a></li>
+	<li><a href="/ywbk/szgc/"><img alt="" height="107" src="/images/chanye02_c.jpg" width="191" /><span>市政工程</span></a></li>
+	<li><a href="/ywbk/fjgc/"><img alt="" height="107" src="/images/chanye03_c.jpg" width="191" /><span>房建工程</span></a></li>
+	<li><a href="/ywbk/gxyhgc/"><img alt="" height="107" src="/images/chanye04_c.jpg" width="191" /><span>高新养护工程</span></a></li>
+	<li><a href="/ywbk/hbkjgc/"><img alt="" height="107" src="/images/chanye05_c.jpg" width="191" /><span>环保科技工程</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix" style="margin-top:120PX;">
+<div class="content_box">
+<div class="banner-bews" id="banner-bews"><!--<div class="hd">--><!--<ul>--><!--<li>1</li>--><!--<li>2</li>--><!--</ul>--><!--</div>-->
+<div class="banner-bd"><ul>
+<li><a href="/ldgc/20200602/4398.shtml" target="_blank"><img alt="" src="/ldgc/images/pic0pvkgfnu_400x600.jpeg" /> <span class="slider-title">雄安建设之家2号营地工程</span> </a></li><li><a href="/ldgc/20200602/4397.shtml" target="_blank"><img alt="" src="/ldgc/images/piciqy3n507_400x600.jpeg" /> <span class="slider-title">马尔代夫国际机场改扩建工程</span> </a></li><li><a href="/ldgc/20200602/4396.shtml" target="_blank"><img alt="" src="/ldgc/images/pic67s652r0_400x600.jpeg" /> <span class="slider-title">（沧州）中关村科技丰台园</span> </a></li><li><a href="/ldgc/20200602/4395.shtml" target="_blank"><img alt="" src="/ldgc/images/picc242n162_400x600.jpeg" /> <span class="slider-title">辽宁集双高速公路工程</span> </a></li>
+</ul></div>
+<!-- 下面是前/后按钮代码，如果不需要删除即可 --><a class="prev" href="javascript:void(0)"><!--left--></a><a class="next" href="javascript:void(0)"><!--right--></a></div>
+
+<div class="jtyw">
+<div class="title">
+<h2><span>公司要闻</span></h2>
+<a href="/xwzx/gsyw/">更多&gt;</a></div>
+
+<div class="box-mian"><ul>
+<li><a href="/xwzx/gsyw/20200531/447.shtml" target="_blank">公司与河钢唐钢企业洽谈合作事宜</a><span>[2020-05-27]</span></li><li><a href="/xwzx/gsyw/20200531/448.shtml" target="_blank">延庆区副区长一行调研公司延庆区绿色产业</a><span>[2020-05-23]</span></li><li><a href="/xwzx/gsyw/20200531/449.shtml" target="_blank">见证北京城建一块砖的再生之旅……</a><span>[2020-05-17]</span></li><li><a href="/xwzx/gsyw/20200531/450.shtml" target="_blank">记北京小汤山医院到雄安新区建设者之家的再生材料故事</a><span>[2020-05-16]</span></li><li><a href="/xwzx/gsyw/20200531/451.shtml" target="_blank">今天，城建集团领导走访调研这个项目……</a><span>[2020-05-10]</span></li><li><a href="/xwzx/gsyw/20200531/452.shtml" target="_blank">劳动节，我们奋斗在岗位上！</a><span>[2020-05-01]</span></li><li><a href="/xwzx/gsyw/20200531/453.shtml" target="_blank">公司开启美丽乡村建设新模式</a><span>[2020-04-30]</span></li><li><a href="/xwzx/gsyw/20200531/454.shtml" target="_blank">建设者之家二号营地23栋宿舍楼顺利通过验收</a><span>[2020-04-29]</span></li>
+</ul></div>
+</div>
+
+<div class="clert">&nbsp;</div>
+</div>
+
+<div class="content_box">
+<div class="ibox">
+<div class="title">
+<h2><span>集团动态</span></h2>
+<a href="/xwzx/jtdt/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/xwzx/jtdt/20200527/4227.shtml" target="_blank">雄安项目集群创造“雄安质量”“雄安速度”</a><span>[05-27]</span></li><li><a href="/xwzx/jtdt/20200527/4155.shtml" target="_blank">集团在“两会”期间连中五标</a><span>[05-27]</span></li><li><a href="/xwzx/jtdt/20200527/4226.shtml" target="_blank">集团领导赴天津调研区域项目</a><span>[05-27]</span></li><li><a href="/xwzx/jtdt/20200527/4168.shtml" target="_blank">市委组织部人才工作局领导到集团调研</a><span>[05-27]</span></li><li><a href="/xwzx/jtdt/20200527/4179.shtml" target="_blank">集团领导赴雄安新区开展专题调研</a><span>[05-27]</span></li>
+</ul></div>
+</div>
+
+<div class="ibox">
+<div class="title">
+<h2><span>视频新闻</span></h2>
+<a href="/xwzx/spxw/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul class="video">
+<li><a href="/xwzx/spxw/20200529/435.shtml" target="_blank"><i></i>2019年6月19日，wtc会展视频</a><span>[06-20]</span></li>
+</ul></div>
+</div>
+
+<div class="ibox">
+<div class="title">
+<h2><span>热点专题</span></h2>
+<a href="/xwzx/rdzt/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul class="hot">
+<li><a href="/xwzx/rdzt/20200602/4475.shtml" target="_blank">公司2020年第一季度经济活动分析会顺利召开</a></li><li><a href="/xwzx/rdzt/20200602/4474.shtml" target="_blank">公司2019年年中工作会顺利召开</a></li><li><a href="/xwzx/rdzt/20200602/4473.shtml" target="_blank">公司2019年经营系统工作会顺利召开</a></li><li><a href="/xwzx/rdzt/20200602/4472.shtml" target="_blank">公司2019年年初工作研讨会胜利召开</a></li><li><a href="/xwzx/rdzt/20200602/4471.shtml" target="_blank">公司全面落实集团2019工作研讨会议精神</a></li>
+</ul></div>
+</div>
+
+<div class="clert">&nbsp;</div>
+</div>
+
+<div class="content_box">
+<div class="ibox">
+<div class="title">
+<h2><span>企业文化</span></h2>
+<a href="/qywh/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/qywh/zghd/20200530/446.shtml" target="_blank">劳逸结合，公司开展长走活动</a><span>[05-11]</span></li><li><a href="/qywh/zghd/20200530/445.shtml" target="_blank">情满冬至，温暖这个冬季</a><span>[12-27]</span></li><li><a href="/qywh/zghd/20200530/444.shtml" target="_blank">为2018春季北京国际长走运动开走助力</a><span>[05-07]</span></li>
+</ul></div>
+</div>
+
+<div class="ibox">
+<div class="title">
+<h2><span>社会责任</span></h2>
+<a href="/shzr/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/shzr/zxdt/20200603/4515.shtml" target="_blank">发挥企业社会责任担当，助力美丽乡村建设！</a><span>[04-30]</span></li><li><a href="/shzr/hbsh/20200603/4512.shtml" target="_blank">圆满完成“雄安建设者之家二号营地”第一阶段节点任务</a><span>[04-02]</span></li><li><a href="/shzr/hbsh/20200603/4513.shtml" target="_blank">疫情期间 北京小汤山医院建设纪实！</a><span>[03-26]</span></li><li><a href="/shzr/zxdt/20200603/4514.shtml" target="_blank">公司首例江西乐安稠溪古村旅游PPP项目正式开工，开启文旅投资新纪元！</a><span>[12-31]</span></li><li><a href="/shzr/dtjj/20200603/4511.shtml" target="_blank">公司与北京城建北方集团签署建筑固废资源化战略协议</a><span>[11-06]</span></li>
+</ul></div>
+</div>
+
+<div class="ibox">
+<div class="title">
+<h2><span>企业招聘</span></h2>
+<a href="/qyzp/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul>
+<li><a href="/qyzp/20200603/4517.shtml" target="_blank">岗位招聘</a><span>[06-03]</span></li><li><a href="/qyzp/20200603/4516.shtml" target="_blank">应届毕业生招聘</a><span>[06-03]</span></li>
+</ul></div>
+
+<div class="iibox-mian">
+<ul>
+	<li><a href="#" target="_blank"><span><img alt="" height="30" src="/images/zhaopin1.png" width="39" /></span>简历查询</a></li>
+	<li><a href="#" target="_blank"><span><img alt="" height="30" src="/images/zhaopin2.png" width="39" /></span>在线应聘</a></li>
+</ul>
+</div>
+</div>
+
+<div class="clert">&nbsp;</div>
+</div>
+
+<div class="content_box">
+<div class="ibox">
+<div class="title">
+<h2><span>建筑材料</span></h2>
+<a href="/jzcl/">更多&gt;</a></div>
+
+<div class="qywh_con"><!--silder begin --->
+<div class="silder" id="silder"><ul class="silder_list" id="silder_list">
+<li><img alt="水泥稳定再生骨料无机结合料无侧限" border="0" src="/jzcl/zsgl/images/pico1huq1qv.jpg" /></li><li><img alt="水泥稳定再生骨料无机结合料" border="0" src="/jzcl/zsgl/images/pic53m8v01m.jpg" /></li><li><img alt="石灰粉煤灰稳定再生骨料无机结合料无侧限" border="0" src="/jzcl/zsgl/images/picfp2jer1b.jpg" /></li>
+</ul></div>
+<!--silder end ---></div>
+</div>
+
+<div class="dangjian_box">
+<div class="title">
+<h2><span>党建工作</span></h2>
+<a href="/ddjs/djgz/">更多&gt;</a></div>
+
+<div class="ibox-mian"><ul class="dangjian">
+<li><a href="/ddjs/djgz/20200603/4504.shtml" target="_blank">华晟公司党支部组织观看《小巷管家》</a><span>[2019-11-13]</span></li><li><a href="/ddjs/djgz/20200603/4503.shtml" target="_blank">华晟公司党支部开展“不忘初心，牢记使命”主题教育组织生活会</a><span>[2019-10-13]</span></li><li><a href="/ddjs/djgz/20200603/4502.shtml" target="_blank">在延庆冬奥市政大桥建设现场，城建集团第十党支部和华晟公司党支部共同庆祝新中国成立70周年活动并视察慰问项目参施员工</a><span>[2019-09-19]</span></li>
+</ul></div>
+</div>
+
+<div class="saoma_box">
+<div class="title">
+<h2><span>微信公众号</span></h2>
+</div>
+
+<div class="saoma_con"><img alt="" height="121" src="/images/saoma_c.png" width="228" /></div>
+</div>
+
+<div class="clert">&nbsp;</div>
+</div>
+
+<div class="content_box">
+<div class="gczs_box">
+<div class="title">
+<h2><span>亮点工程</span></h2>
+<a href="/ldgc/">更多&gt;</a></div>
+
+<div class="gczs-piclist clearfix">
+<div align="center" id="demo" style="overflow: hidden; height: 190px; width: 1150px; float: left">
+<div style="width: 5520px"><ul id="demo1" style="float: left">
+<li><a href="/ldgc/20200602/4398.shtml"><img alt="" src="/ldgc/images/pic0pvkgfnu_400x600.jpeg" /><span>雄安建设之家2号营地工程</span></a></li><li><a href="/ldgc/20200602/4397.shtml"><img alt="" src="/ldgc/images/piciqy3n507_400x600.jpeg" /><span>马尔代夫国际机场改扩建工程</span></a></li><li><a href="/ldgc/20200602/4396.shtml"><img alt="" src="/ldgc/images/pic67s652r0_400x600.jpeg" /><span>（沧州）中关村科技丰台园</span></a></li><li><a href="/ldgc/20200602/4395.shtml"><img alt="" src="/ldgc/images/picc242n162_400x600.jpeg" /><span>辽宁集双高速公路工程</span></a></li><li><a href="/ldgc/20200602/4394.shtml"><img alt="" src="/ldgc/images/pic51yot5g4_400x600.jpeg" /><span>安徽东黄山市政工程</span></a></li><li><a href="/ldgc/20200602/4393.shtml"><img alt="" src="/ldgc/images/pic3ploci3m.jpeg" /><span>江西九银金融大厦项目</span></a></li>
+</ul><ul id="demo2" style="float: left"><!--repeat-->
+</ul>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+		  <!--
+		  var demo = document.getElementById("demo");
+		  var demo1 = document.getElementById("demo1");
+		  var demo2 = document.getElementById("demo2");
+		  var speed=30;    //滚动速度值，值越大速度越慢
+		  var nnn=200/demo1.offsetWidth;
+		  for(i=0;i<nnn;i++){demo1.innerHTML+= demo1.innerHTML}
+		  demo2.innerHTML = demo1.innerHTML    //克隆demo2为demo1
+		  function Marquee(){
+			  if(demo2.offsetLeft-demo.scrollLeft<=0)    //当滚动至demo1与demo2交界时
+				  demo.scrollLeft-=demo1.offsetWidth    //demo跳到最顶端
+			  else{
+				  demo.scrollLeft++     //如果是横向的 将 所有的 height top 改成 width left 
+			  }
+		  }
+		  var MyMar = setInterval(Marquee,speed);        //设置定时器
+		  demo.onmouseover = function(){clearInterval(MyMar)}    //鼠标经过时清除定时器达到滚动停止的目的
+		  demo.onmouseout = function(){MyMar = setInterval(Marquee,speed)}    //鼠标移开时重设定时器
+		  -->
+		</script></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script><script>
+    // banner
+    $(".banner-b").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        delayTime: 2500,
+        interTime: 5000,
+        easing: "swing",
+        trigger: "click"
+    });
+    $(".Scroll-top").slide({
+        titCell: ".news-c ul",
+        mainCell: ".news-list ul",
+        autoPage: true,
+        effect: "top",
+        autoPlay: true,
+        vis: 1
+    });
+    // 图片带文字滚动
+    $(".banner-bews").slide({mainCell: ".banner-bd ul", autoPlay: true});
+</script></body>
+</html>

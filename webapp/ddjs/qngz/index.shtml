@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner05_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/ddjs/index.shtml">党的建设</a>><a href="/ddjs/qngz/index.shtml">青年工作</a></div>
+
+<div class="content_box clearfix">
+<div class="topline clearfix">
+<div class="column">
+<h1><a href="/ddjs/">党的建设</a></h1>
+
+<ul>
+	<li><a href="/ddjs/djgz/index.shtml">党建工作</a></li>
+	<li><a href="/ddjs/qzgz/index.shtml">群众工作</a></li>
+	<li class="act"><a href="/ddjs/qngz/index.shtml">青年工作</a></li>
+</ul>
+</div>
+
+<div class="list-right"><ul><li><a href="/ddjs/qngz/20200603/4505.shtml" target="_blank"><span>2019-07-14</span> </a>
+	<p><a href="/ddjs/qngz/20200603/4505.shtml" target="_blank">公司2019年新员工入职培训会顺利召开</a></p>
+	</li>
+
+
+<li><a href="/ddjs/qngz/20200603/4506.shtml" target="_blank"><span>2018-07-15</span> </a>
+	<p><a href="/ddjs/qngz/20200603/4506.shtml" target="_blank">北京城建华晟交通建设有限公司2018届新员工入职培训圆满举行</a></p>
+	</li>
+
+</ul><div class="page">
+
+<span>第1页</span>
+<span>共1页</span>
+< a href=" >">上一页</ a>
+
+
+<span class="cur">1</span>
+< a href="/ddjs/qngz/index1.shtml">下一页</ a>
+<span class="txtl">转到第</span>
+<span class="select-pager">
+<form name=form><select name=turnPage size=1 onChange="window.location=this.form.turnPage.value;"><option value=/ddjs/qngz/index.shtml selected>1</option></select></form>
+</span>
+<span class="txtr">页</span></div></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

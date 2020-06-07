@@ -1,0 +1,54 @@
+
+<table border="0" class="info_table" width="780">
+	<tbody>
+		<tr>
+			<td align="right" width="230"><strong>在线申请职位</strong></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right">姓名：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">性别：</td>
+			<td><input id="RadioGroup1_0" name="RadioGroup1" type="radio" value="0" /> 男&nbsp;&nbsp; <input id="RadioGroup1_1" name="RadioGroup1" type="radio" value="1" /> 女</td>
+		</tr>
+		<tr>
+			<td align="right">年龄：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">学历：<br />
+			（大专/本科/硕士/博士）</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">学制：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">毕业院校：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">专业：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">电话：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">毕业时间：</td>
+			<td><input class="input_but_1" name="textfield1" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="right">验证码：</td>
+			<td><input class="input_but_3" name="textfield1" type="text" /><img alt="" height="36" src="/images/yanzhengma.png" width="160" /></td>
+		</tr>
+		<tr>
+			<td align="right">&nbsp;</td>
+			<td><input class="input_but_4" type="submit" /></td>
+		</tr>
+	</tbody>
+</table>

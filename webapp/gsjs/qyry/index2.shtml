@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner01_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/gsjs/index.shtml">公司介绍</a>><a href="/gsjs/qyry/index.shtml">企业荣誉</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out clearfix">
+<div class="column">
+<h1><a href="#">公司介绍</a></h1>
+
+<ul>
+	<li class="leaders">
+	<p><a href="/gsjs/gsld/">公司主要领导</a></p>
+
+	<p>总经理：高治泉</p>
+
+	<p>书记：刘乃忠</p>
+	</li>
+	<li><a href="/gsjs/zzjg/">组织结构</a></li>
+	<li class="act"><a href="/gsjs/qyry/">企业荣誉</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>企业荣誉</span></h2>
+</div><ul>
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/21.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/22.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/23.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/24.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/25.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/26.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/27.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/28.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/29.jpg" /></li>
+
+
+<li><img alt="" border="0" hspace="0" src="/gsjs/qyry/images/30.jpg" /></li>
+
+</ul><div class="page">
+
+<span>第3页</span>
+<span>共5页</span>
+< a href=" >">上一页</ a>
+
+
+<a href="/gsjs/qyry/index.shtml">1</a>
+<a href="/gsjs/qyry/index1.shtml">2</a>
+<span class="cur">3</span>
+<a href="/gsjs/qyry/index3.shtml">4</a>
+<a href="/gsjs/qyry/index4.shtml">5</a>
+< a href="/gsjs/qyry/index3.shtml">下一页</ a>
+<span class="txtl">转到第</span>
+<span class="select-pager">
+<form name=form><select name=turnPage size=1 onChange="window.location=this.form.turnPage.value;"><option value=/gsjs/qyry/index.shtml>1</option><option value=/gsjs/qyry/index1.shtml>2</option><option value=/gsjs/qyry/index2.shtml selected>3</option><option value=/gsjs/qyry/index3.shtml>4</option><option value=/gsjs/qyry/index4.shtml>5</option></select></form>
+</span>
+<span class="txtr">页</span></div></div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner01_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/gsjs/index.shtml">公司介绍</a></div>
+
+<div class="content_box clearfix">
+<div class="box_out clearfix">
+<div class="column">
+<h1><a href="#">公司介绍</a></h1>
+
+<ul>
+	<li class="leaders">
+	<p><a href="#">公司主要领导</a></p>
+
+	<p>总经理：高治泉</p>
+
+	<p>书记：刘乃忠</p>
+	</li>
+	<li><a href="/gsjs/zzjg/">组织结构</a></li>
+	<li><a href="/gsjs/qyry/">企业荣誉</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>公司介绍</span></h2>
+</div>
+
+<p>北京城建华晟交通建设有限公司隶属于北京城建集团，是一支敢打硬仗、能打胜仗的专业化基础设施建设企业。是拥有公路工程施工、市政公用工程施工的总承包双壹级企业，企业注册资本金一亿元，拥有国家住房和城乡建设部、交通运输部正式颁发的施工资质十四项。</p>
+
+<p>北京城建华晟交通建设有限公司是集环保科技、高新养护、公路、市政、房建五大产业为一体的高新技术企业，设立京津冀、江西、安徽、北方、西南与西北6大区域公司，拥有路面、北京长阳环科、北京河北环科、江西、高安市政5个分公司，真正实现了区域化市场带动产业链协同发展模式，推动企业高端化发展。</p>
+
+<p>北京城建华晟交通建设有限公司高效完成了北京大兴国际机场、国家体育场（鸟巢）、国家大剧院、中国国学中心、北京首都国际机场3号航站楼、长安街道路大修等重点工程；马尔代夫国际机场、埃塞俄比亚等海外亮点工程，以及北京城市副中心、国家高山滑雪中心等北京市政府及奥运会核心工程建设，2020年，参建北京小汤山医院修缮、雄安新区建设者之家等多项紧急抢险任务，作为一家既参建过夏季奥运会主场馆、又参建冬季奥运会赛区的专业化企业，多次荣获中国建筑业&ldquo;鲁班奖&rdquo;、&ldquo;李春奖&rdquo;、&ldquo;詹天佑奖&rdquo;和&ldquo;北京市竣工长城杯金质奖&rdquo;。</p>
+
+<p>北京城建华晟交通建设有限公司作为北京市第一家获批建筑固体废弃物再生资质企业，在环境工程方面发展迅速，领域涉及：污水处置、河道整治、土壤修复、建筑垃圾循环利用等多个业务板块。作为中国砂石协会常务理事单位，公司积极响应京津冀协同发展&ldquo;绿色建材、公转铁、氢能源汽车运输&rdquo;号召，积极作为。</p>
+
+<p>北京城建华晟交通建设有限公司依托资源化全产业链优势，立足北京，布局全球，业务覆盖北京、江西、安徽、河北等20多个省市、马尔代夫、埃塞俄比亚等海外地区，以&ldquo;军魂、匠心、恒心&rdquo;筑城建精神，用&ldquo;责任与担当&rdquo;创华晟品牌。期待与您一起携手筑梦，共创未来！</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>

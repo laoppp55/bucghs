@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+	<title>北京城建华晟交通建设有限公司</title>
+	<link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/list.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="/js/jquery.img_silder.js"></script><script>
+        $(function(){
+            $('#silder').imgSilder({
+				s_width:785, //容器宽度
+				s_height:441, //容器高度
+				is_showTit:true, // 是否显示图片标题 false :不显示，true :显示
+				s_times:3500, //设置滚动时间
+				css_link:'/css/silder_1.css'//样式文件位置
+			});
+		});
+    </script>
+</head>
+<body>
+<div class="full_box"><!--#include virtual="/inc/head.shtml"--></div>
+
+<div class="banner"><img alt="" src="/images/banner04_c.jpg" /></div>
+<!--BANNER END-->
+
+<div class="main whitebg clearfix">
+<div class="pathbox"><a href="/index.shtml">首页</a>><a href="/jzcl/index.shtml">建筑材料</a>><a href="/jzcl/zsgk/index.shtml">再生骨料</a></div>
+
+<div class="content_box clearfix">
+<div class="topline clearfix">
+<div class="column">
+<h1><a href="/jzcl/">建筑材料</a></h1>
+
+<ul>
+	<li class="act"><a href="/jzcl/zsgl/index.shtml">再生骨料</a></li>
+	<li><a href="/jzcl/zszzp/index.shtml">再生砖制品</a></li>
+</ul>
+</div>
+
+<div class="txt-right clearfix">
+<div class="title">
+<h2><span>再生骨料</span></h2>
+</div>
+
+<div style="padding:20px 0;"><!--silder begin --->
+<div class="silder" id="silder"><ul class="silder_list" id="silder_list">
+<li><a href="/jzcl/zsgk/20200601/4386.shtml" target="_blank"><img alt="“4.75-9.5-mm再生混凝土块" border="0" src="/jzcl/zsgk/images/pic34131uvc.jpg" /></a></li><li><a href="/jzcl/zsgk/20200601/4385.shtml" target="_blank"><img alt="“0-4.75mm再生砖瓦粒料" border="0" src="/jzcl/zsgk/images/pic4q31a6dk.jpg" /></a></li><li><a href="/jzcl/zsgk/20200601/4384.shtml" target="_blank"><img alt="“0-4.75mm再生混凝土块" border="0" src="/jzcl/zsgk/images/picj5n23dkvjpg" /></a></li>
+</ul></div>
+<!--silder end ---></div>
+
+<p>建筑废弃物经机械设备破碎筛分可生成 9.5-31.5mm、4.75-9.5mm、0-4.75mm 三档不同粒径的砖瓦类再生骨料、混凝土再生骨料。</p>
+
+<p>砖瓦类再生骨料具有吸附性强的特点，可用于污水处理、河道净化等、针片状粒料数量少、骨料洁净等优点，其各项物理指标符合规范标准，可直接用于垫层施工，可与天然骨料或混凝土再生骨料掺配用于底基层施工。</p>
+
+<p>混凝土再生骨料各项规范指标接近天然碎石材料，具有压碎值强度高、针片状含量少、料形规整、表面粗糙等特点，有利于与石灰、粉煤灰、水泥等胶凝材料的粘合，其粘合程度更优于天然碎石。</p>
+
+<p>使用范围</p>
+
+<p>建筑工程：再生混凝土、砂浆、砌块砖</p>
+
+<p>海绵城市：渗畜材料</p>
+
+<p>市政交通：再生透水混凝土、透水砖、无机混合料、回填材料</p>
+
+<p>规 格 （单位 mm）</p>
+
+<p>0-4.75mm、4.75-9.5mm、9.5-31.5mm<br />
+&nbsp;</p>
+
+<div class="info_box"><!--#include virtual="/jzcl/jiancai.shtml"--></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="full_box foot"><!--#include virtual="/inc/tail.shtml"--></div>
+</body>
+</html>
