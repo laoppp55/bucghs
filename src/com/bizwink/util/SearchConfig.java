@@ -19,8 +19,6 @@ public class SearchConfig {
     private Properties props;
     private static SearchConfig singleton = new SearchConfig();
     public static Analyzer analyzer = new IKAnalyzer();
-     //   Analyzer analyzer = new SmartChineseAnalyzer(Version.LUCENE_45);
-    //Analyzer analyzer = new PaodingAnalyzer();
 
     private SearchConfig(){
 

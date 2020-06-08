@@ -1,6 +1,7 @@
 package com.bizwink.search;
 
 import com.bizwink.cms.news.Article;
+import com.bizwink.cms.server.InitServer;
 import com.bizwink.util.SearchConfig;
 import com.bizwink.util.StringUtil;
 import org.apache.lucene.analysis.Analyzer;
@@ -29,9 +30,8 @@ public class SearchFilesServlet {
     private  String indexPath;
 
     public SearchFilesServlet() {
-        SearchConfig searchConfig = SearchConfig.getInstance();
-        indexPath = searchConfig.getIndexpathConfig();
-        System.out.println("indexPAth==" + indexPath);
+        InitServer.getInstance().init();
+        indexPath = InitServer.getProperties().getProperty("main.indexPath");
     }
 
     public List getRelatedArticles(String searchstr, int selectNum, String cIds) {
