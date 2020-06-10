@@ -63,7 +63,7 @@
 		</tr>
 		<tr>
 			<td align="right">毕业日期：</td>
-			<td><input class="input_but_1" name="graduationtime" id="graduationDateID" type="text" /><span style="color: red">&nbsp;&nbsp;*</span></td>
+			<td><input class="input_but_1" name="graduationtime" id="graduationDateID" type="text" readonly/><span style="color: red">&nbsp;&nbsp;*</span></td>
 		</tr>
 		<tr>
 			<td align="right">上传个人简历<span style="color: red">&nbsp;&nbsp;*</span>：</td>

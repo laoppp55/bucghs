@@ -662,7 +662,6 @@ function checkResumeInfo(form) {
         return false;
     }
 
-    var age = form.age.value;
     var edubackground = $("input[name='edubackground']:checked").val();
     if (edubackground == "" || edubackground == null) {
         $.msgbox({
@@ -789,16 +788,55 @@ function checkResumeInfo(form) {
             //autoClose: 10       //自动关闭
         });
         return false;
+    } else {
+        if (yzcode.length != 4) {
+            $.msgbox({
+                height:120,
+                width:250,
+                content:{type:'alert', content:'验证码输入不正确'},
+                animation:0,        //禁止拖拽
+                drag:false          //禁止动画
+                //autoClose: 10       //自动关闭
+            });
+            return false;
+        }
     }
 
-    var messages = "uuid=" + uuid + "&suppliername=" + suppname  + "&supplierCode=" + suppcode + "&lawPersonName=" + lawPersonName + "&lawPersonTel=" + lawPersonTel +
-        "&contactorname=" + contactorname + "&contactormphone=" + contactormphone + "&contactorphone=" + contactorphone + "&email=" + email + "&yzcode=" + yzcode +
-        "&idcard=" + idcard + "&idcardpic_frontfile=" + idcardpic_frontfile + "&idcardpic_backfile=" + idcardpic_backfile + "&licensepic=" + licensepic +
-        "&authletterpic=" + authletterpic + "&otherpic=" + otherpic;
+    var age = form.age.value;
+    if (age == "" || age == null) age="";
+
+    var messages = "name=" + name + "&sex=" + sex  + "&age=" + age +  "&edubackground=" + edubackground + "&edusystem=" + edusystem + "&school=" + school +
+        "&major=" + major + "&telephone=" + telephone + "&graduationtime=" + graduationtime + "&resumefilename=" + resumefilename + "&yzcode=" + yzcode;
 
     form.checkval.value=hex_md5(messages);
-
-    return true;
+    alert(form.checkval.value);
+    //保存简历信息
+    htmlobj=$.ajax({
+        url:"/saveResumeInfo.do",
+        type:'post',
+        dataType:'json',
+        data:{
+            name:encodeURI(name),
+            sex:sex,
+            age:age,
+            edubackground:encodeURI(edubackground),
+            edusystem:encodeURI(edusystem),
+            school:encodeURI(school),
+            major:encodeURI(major),
+            telephone:telephone,
+            graduationtime:graduationtime,
+            resumefilename:encodeURI(resumefilename),
+            yzcode:yzcode,
+            checkval:hex_md5(messages)
+        },
+        async:false,
+        cache:false,
+        success:function(data){
+            alert(data);
+        }
+    });
+    alert("hello word");
+    return false;
 }
 
 
