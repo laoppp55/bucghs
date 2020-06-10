@@ -57,10 +57,9 @@
 <head>
     <meta charset="utf-8">
     <title>北京城建华晟交通建设有限公司--信息检索</title>
-    <link href="/css/basis.css" rel="stylesheet" type="text/css">
-    <link href="/css/column.css" rel="stylesheet" type="text/css">
+    <link href="/css/main2019.css" rel="stylesheet" type="text/css" />
+    <link href="/css/list.css" rel="stylesheet" type="text/css" />
     <script src="/js/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="/js/users.js" type="text/javascript"></script>
 </head>
 
 <body>

@@ -107,6 +107,7 @@ public class Upload extends HttpServlet {
             String path = InitServer.getProperties().getProperty("main.uploaddir");
             //String path = request.getRealPath("/upload");
             //也可不用自己写实现方法直接使用,fileItem.write(uploadFile);
+            System.out.println(path + fileName);
             File uploadFile = new File(path,fileName);
             //首先要确认路径是否存在
             uploadFile.getParentFile().mkdirs();

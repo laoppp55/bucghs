@@ -244,7 +244,7 @@
           <td align="right">验证码：</td>
           <td>
             <input type="text" placeholder="输入图形验证码" class="input_but_6" name="yzcode" id="VerCode"/>
-            <span><img src="/users/image.jsp" width="100" height="36" id="yzImageID" align="absmiddle"/></span><span><a href="javascript:change_yzcodeimage();">换一张</a></span>
+            <img src="/users/image.jsp" width="160" height="36" id="yzImageID" align="absmiddle"/><a href="javascript:change_yzcodeimage();">换一张</a>
             <!--img src="/ggzyjy/images/yanzhengma.png" width="160" height="36" alt=""/-->
           </td>
         </tr>

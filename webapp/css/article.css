@@ -139,6 +139,15 @@
     float: left;
     outline: none;
 }
+.input_but_upload {
+    width: 450px;
+    height: 18px;
+    padding: 8px 9px;
+    /*border: 1px solid #DCDCDC;*/
+    color: #999999;
+    float: left;
+    outline: none;
+}
 .input_but_2 {
 	width: 450px;
     height: 100px;
