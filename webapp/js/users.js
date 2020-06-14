@@ -809,7 +809,7 @@ function checkResumeInfo(form) {
         "&major=" + major + "&telephone=" + telephone + "&graduationtime=" + graduationtime + "&resumefilename=" + resumefilename + "&yzcode=" + yzcode;
 
     form.checkval.value=hex_md5(messages);
-    alert(form.checkval.value);
+
     //保存简历信息
     htmlobj=$.ajax({
         url:"/saveResumeInfo.do",
@@ -832,13 +832,130 @@ function checkResumeInfo(form) {
         async:false,
         cache:false,
         success:function(data){
-            alert(data);
+            if (data.errcode == 0) {
+                $.msgbox({
+                    height:120,
+                    width:300,
+                    content:{type:'alert', content:'您的简历投递成功，感谢投递，请等待招聘专员与您联系'},
+                    animation:0,        //禁止拖拽
+                    drag:false          //禁止动画
+                    //autoClose: 10       //自动关闭
+                });
+            }
         }
     });
-    alert("hello word");
     return false;
 }
 
+function checkbuildingMaterialsInfo(form) {
+    var contactor = form.contactor.value;
+    if (contactor == "" || contactor == null) {
+        $.msgbox({
+            height:120,
+            width:300,
+            content:{type:'alert', content:'联系人姓名不能为空'},
+            animation:0,        //禁止拖拽
+            drag:false          //禁止动画
+            //autoClose: 10       //自动关闭
+        });
+        return false;
+    }
+
+    var mphone = form.mphone.value;
+    if (mphone == "" || mphone == null) {
+        $.msgbox({
+            height:120,
+            width:300,
+            content:{type:'alert', content:'联系人手机号码不能为空'},
+            animation:0,        //禁止拖拽
+            drag:false          //禁止动画
+            //autoClose: 10       //自动关闭
+        });
+        return false;
+    } else {
+        if (checkMPhone(mphone) == false) {
+            $.msgbox({
+                height: 120,
+                width: 300,
+                content: {type: 'alert', content: '联系人手机号码格式不正确，请填写正确的手机号码'},
+                animation: 0,       //禁止拖拽
+                drag: false         //禁止动画
+                //autoClose: 10     //自动关闭
+            });
+            return false;
+        }
+    }
+
+    var content = form.content.value;
+    if (content == "" || content == null) {
+        $.msgbox({
+            height:120,
+            width:300,
+            content:{type:'alert', content:'咨询内容不能为空'},
+            animation:0,        //禁止拖拽
+            drag:false          //禁止动画
+            //autoClose: 10       //自动关闭
+        });
+        return false;
+    }
+
+    var yzcode = form.yzcode.value;
+    if (yzcode == "" || yzcode == null) {
+        $.msgbox({
+            height:120,
+            width:300,
+            content:{type:'alert', content:'验证码信息不能为空，请填写验证码信息'},
+            animation:0,        //禁止拖拽
+            drag:false          //禁止动画
+            //autoClose: 10       //自动关闭
+        });
+        return false;
+    } else {
+        if (yzcode.length != 4) {
+            $.msgbox({
+                height:120,
+                width:250,
+                content:{type:'alert', content:'验证码输入不正确'},
+                animation:0,        //禁止拖拽
+                drag:false          //禁止动画
+                //autoClose: 10       //自动关闭
+            });
+            return false;
+        }
+    }
+
+    var messages = "contactor=" + contactor + "&mphone=" + mphone  + "&content=" + content + "&yzcode=" + yzcode;
+    alert(messages);
+
+    //保存建筑材料信息
+    htmlobj=$.ajax({
+        url:"/saveBuildingMaterialsInfo.do",
+        type:'post',
+        dataType:'json',
+        data:{
+            contactor:encodeURI(contactor),
+            mphone:mphone,
+            content:encodeURI(content),
+            yzcode:yzcode,
+            checkval:hex_md5(messages)
+        },
+        async:false,
+        cache:false,
+        success:function(data){
+            if (data.errcode == 0) {
+                $.msgbox({
+                    height:120,
+                    width:300,
+                    content:{type:'alert', content:'您的产品需求提交成功，感谢您的关注，请等待业务人员与您联系'},
+                    animation:0,        //禁止拖拽
+                    drag:false          //禁止动画
+                    //autoClose: 10       //自动关闭
+                });
+            }
+        }
+    });
+    return false;
+}
 
 //检查潜在投标人报名信息
 function checkBidApplicationInfo(form) {

@@ -10,8 +10,10 @@
     // PrintWriter out = response.getWriter();
     Upload upload = null;
     upload = (Upload)request.getSession().getAttribute("upload");
-    if(null == upload)
+    if(null == upload) {
+        System.out.println("upload is null");
         return;
+    }
     long currentTime = System.currentTimeMillis();
     //计算已用时，以S为单位
     long time = (currentTime - upload.getStartTime()) / 1000 + 1;
@@ -26,7 +28,6 @@
     //剩余时间
     int shenYu =  (int)((upload.getTotalSize() - upload.getUploadSize()) / 1024 / speed);
     String str = time+"-"+speed+"-"+percent+"-"+mb+"-"+totalMb+"-"+shenYu;
-    System.out.println(str);
     out.print(str);
     out.flush();
     out.close();
