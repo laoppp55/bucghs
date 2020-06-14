@@ -15,7 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.math.BigDecimal;
 import java.net.URLDecoder;
+import java.sql.Timestamp;
 
 @Controller
 public class ResumeApplication {
@@ -52,6 +54,7 @@ public class ResumeApplication {
                 if (appContext != null) {
                     IResumeInfoService resumeInfoService = (IResumeInfoService)appContext.getBean("resumeInfoService");
                     Jobinfo jobinfo = new Jobinfo();
+                    jobinfo.setCOMPANYID(String.valueOf(59));
                     jobinfo.setFIRSTNAME(name);
                     jobinfo.setSENDNAME(name);
                     jobinfo.setNATIONALITY("中国");
@@ -76,21 +79,26 @@ public class ResumeApplication {
                     jobinfo.setCOMPANYID(String.valueOf(0));
                     jobinfo.setPOSTID(String.valueOf(0));
                     jobinfo.setDOCUMENTSTYPE(String.valueOf(0));
+                    jobinfo.setCREATEDATE(new Timestamp(System.currentTimeMillis()));
                     retcode = resumeInfoService.saveResumeInfo(jobinfo);
+                    session.removeAttribute("randnum");
                 }else {
                     errorMessage.setErrcode(-203);
                     errorMessage.setErrmsg("系统环境出现错误,简历投递失败，请您过一段时间再次重新投递简历");
                     errorMessage.setModelname("简历投递系统");
+                    session.removeAttribute("randnum");
                 }
             } else {
                 errorMessage.setErrcode(-204);
                 errorMessage.setErrmsg("前后台数据收入不相符，未通过数据验证,简历投递失败，请您检验您的投递信息");
                 errorMessage.setModelname("简历投递系统");
+                session.removeAttribute("randnum");
             }
         } else {
             errorMessage.setErrcode(-205);
             errorMessage.setErrmsg("验证码收入错误，未通过数据验证,简历投递失败，请您检验输入的验证码或者刷新并输入新的验证码");
             errorMessage.setModelname("简历投递系统");
+            session.removeAttribute("randnum");
         }
 
         if (retcode > 0) {

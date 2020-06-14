@@ -73,6 +73,8 @@ public class Upload extends HttpServlet {
             e.printStackTrace();
         }
 
+        System.out.println("size:" + list.size());
+
         for(Iterator iter = list.iterator(); iter.hasNext();){
             //得到文件对象
             FileItem fileItem = (FileItem)iter.next();

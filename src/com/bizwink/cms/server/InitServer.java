@@ -18,7 +18,7 @@ public class InitServer {
     }
 
     public synchronized void init() {
-        System.out.println("isInitialized:" + isInitialized);
+        //System.out.println("isInitialized:" + isInitialized);
         if (!isInitialized) {
             initEnv();                      //初始化环境变量
             isInitialized = true;
