@@ -7,6 +7,7 @@ import com.bizwink.util.MD5Util;
 import com.bizwink.util.ParamUtil;
 import com.bizwink.util.SpringInit;
 import com.bizwink.util.filter;
+import com.google.gson.Gson;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,9 +22,8 @@ import java.sql.Timestamp;
 
 @Controller
 public class MaterialsController {
-    @RequestMapping(value = "/saveBuildingMaterialsInfo.do")
-    public @ResponseBody
-    ErrorMessage saveBuildingMaterialsInfo(HttpServletRequest request, HttpServletResponse response) throws Exception {
+    @RequestMapping(value = "/saveBuildingMaterialsInfo.do",produces = "application/json;charset=UTF-8")
+    public @ResponseBody String saveBuildingMaterialsInfo(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String contactor = filter.excludeHTMLCode(URLDecoder.decode(ParamUtil.getParameter(request, "contactor"), "utf-8"));  //联系人姓名
         String mphone = filter.excludeHTMLCode(ParamUtil.getParameter(request, "mphone"));                                          //联系人电话
         String content = filter.excludeHTMLCode(URLDecoder.decode(ParamUtil.getParameter(request, "content"),"utf-8"));                                        //咨询内容
@@ -32,12 +32,12 @@ public class MaterialsController {
 
         HttpSession session = request.getSession();
         String yzcodeForSession = (String)session.getAttribute("randnum");
-        System.out.println(yzcode + "==" + yzcodeForSession);
+        //System.out.println(yzcode + "==" + yzcodeForSession);
 
         String messages = "contactor=" + contactor + "&mphone=" + mphone  + "&content=" + content + "&yzcode=" + yzcode;
-        System.out.println(messages);
+        //System.out.println(messages);
         String paramVals = MD5Util.MD5Encode(messages,"utf-8");
-        System.out.println(checkcode + "==" + paramVals);
+        //System.out.println(checkcode + "==" + paramVals);
 
         //获取用户端的IP地址
         String user_ip = null;
@@ -98,6 +98,10 @@ public class MaterialsController {
             errorMessage.setModelname("建筑材料需求信息投递系统");
         }
 
-        return errorMessage;
+        Gson gson = new Gson();
+        String jsondata = gson.toJson(errorMessage);
+        //System.out.println(jsondata);
+
+        return jsondata;
     }
 }

@@ -7,6 +7,7 @@ import com.bizwink.util.MD5Util;
 import com.bizwink.util.ParamUtil;
 import com.bizwink.util.SpringInit;
 import com.bizwink.util.filter;
+import com.google.gson.Gson;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,8 +22,8 @@ import java.sql.Timestamp;
 
 @Controller
 public class ResumeApplication {
-    @RequestMapping(value = "/saveResumeInfo.do")
-    public @ResponseBody ErrorMessage saveResumeInfo(HttpServletRequest request, HttpServletResponse response) throws Exception {
+    @RequestMapping(value = "/saveResumeInfo.do",produces = "application/json;charset=UTF-8")
+    public @ResponseBody String saveResumeInfo(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String name = filter.excludeHTMLCode(URLDecoder.decode(ParamUtil.getParameter(request, "name"),"utf-8"));                          //简历投递人姓名
         String sex = filter.excludeHTMLCode(ParamUtil.getParameter(request, "sex"));                                                             //简历投递人性别
         String age = filter.excludeHTMLCode(ParamUtil.getParameter(request, "age"));                                                             //简历投递人年龄
@@ -76,7 +77,6 @@ public class ResumeApplication {
                     jobinfo.setGRADUATESCHOOL(school);
                     jobinfo.setWORKBGNTIME1(graduationtime);
                     jobinfo.setDOCUMENTSNUM1(resumefilename);
-                    jobinfo.setCOMPANYID(String.valueOf(0));
                     jobinfo.setPOSTID(String.valueOf(0));
                     jobinfo.setDOCUMENTSTYPE(String.valueOf(0));
                     jobinfo.setCREATEDATE(new Timestamp(System.currentTimeMillis()));
@@ -111,6 +111,10 @@ public class ResumeApplication {
             errorMessage.setModelname("简历投递系统");
         }
 
-        return errorMessage;
+        Gson gson = new Gson();
+        String jsondata = gson.toJson(errorMessage);
+        //System.out.println(jsondata);
+
+        return jsondata;
     }
 }
