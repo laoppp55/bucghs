@@ -842,6 +842,16 @@ function checkResumeInfo(form) {
                     //autoClose: 10       //自动关闭
                 });
             }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            //弹出jqXHR对象的信息
+            alert(jqXHR.responseText);
+            alert(jqXHR.status);
+            alert(jqXHR.readyState);
+            alert(jqXHR.statusText);
+            //弹出其他两个参数的信息
+            alert(textStatus);
+            alert(errorThrown);
         }
     });
     return false;
@@ -925,7 +935,6 @@ function checkbuildingMaterialsInfo(form) {
     }
 
     var messages = "contactor=" + contactor + "&mphone=" + mphone  + "&content=" + content + "&yzcode=" + yzcode;
-    alert(messages);
 
     //保存建筑材料信息
     htmlobj=$.ajax({
@@ -952,6 +961,16 @@ function checkbuildingMaterialsInfo(form) {
                     //autoClose: 10       //自动关闭
                 });
             }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            //弹出jqXHR对象的信息
+            alert(jqXHR.responseText);
+            alert(jqXHR.status);
+            alert(jqXHR.readyState);
+            alert(jqXHR.statusText);
+            //弹出其他两个参数的信息
+            alert(textStatus);
+            alert(errorThrown);
         }
     });
     return false;
